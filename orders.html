@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order List | Rine's Bean Cafe</title>
+    <link rel="stylesheet" href="rine.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-chip" href="rine.html">Coffee Shop</a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="rine.html#products">Product Page</a>
+          <a href="rine.html#members">Member Log In</a>
+          <a href="rine.html#cart">Cart</a>
+          <a href="orders.html">Order List</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="rine.html#thanks">Thank You</a>
+        </nav>
+
+        <a class="email-pill" href="mailto:rinebeancafe@gmail.com">
+          rinebeancafe@gmail.com
+        </a>
+      </header>
+
+      <main class="orders-page">
+        <section class="orders-page-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Order List</p>
+            <h1>Recent Checkouts</h1>
+            <p class="tagline">
+              Review your checked out orders in one place. Only the latest 10
+              recent orders are shown to keep the page clean.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-link" href="rine.html#products">Order Again</a>
+              <a class="secondary-link" href="rine.html#cart">Open Cart</a>
+            </div>
+          </div>
+
+          <div class="hero-logo-card orders-logo-card">
+            <img
+              src="image/logo.jpg"
+              alt="Rine's Bean Cafe logo"
+              class="hero-logo"
+            />
+          </div>
+        </section>
+
+        <section class="orders-section" id="orders">
+          <div class="section-heading">
+            <p class="card-label">Saved Orders</p>
+            <h2>Latest 10 Orders</h2>
+            <p>
+              New checkouts appear first. Older orders beyond the 10 most
+              recent entries are not shown here.
+            </p>
+          </div>
+
+          <div class="orders-list" data-orders-list>
+            <p class="orders-empty">
+              No checked out orders yet. Add items to your cart and complete
+              checkout.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Rine's Bean Cafe</p>
+        <a href="mailto:rinebeancafe@gmail.com">rinebeancafe@gmail.com</a>
+      </footer>
+    </div>
+    <script src="rine.js"></script>
+  </body>
+</html>
